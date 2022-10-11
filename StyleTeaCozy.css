@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: inline-block;
+    background: black;
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bolder;
+    width: 100%;
+    opacity: 0.9;}
+
+
+   /* Header */
+
+.headerr {
+    background: black;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;}
+
+header img {
+    display: inline-block;
+    height: 50px;
+    margin-top: 8px;
+    padding-left: 10px;}
+
+.hlink {
+    margin-left: auto;
+    justify-content: flex-end;
+    padding-top: 18px;
+    padding-right: 35px;}
+
+.hlink a {
+    color: seashell;
+    padding-left: 18px;
+    font-size: 22px;}
+
+
+   /* Our Mission */
+
+
+.bckground {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;}
+
+.mission {
+    display: inline-block;
+    text-align: center;
+    width: 1200px;
+    height: 90px;
+    margin: 310px auto;
+    position: relative;
+    padding-top: .5px;
+    line-height: .7;
+    background-color: black;
+    }
+
+
+    /* Tea of the Month*/
+
+.month {
+    text-align: center;
+    width: 1000px;
+    height: 650px;
+    display: block;
+    position: relative;
+    margin: 40px auto;
+}
+.month .images {
+    margin-left: 20px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.images img {
+    width: 300px;
+    height: 200px;
+}
+
+
+   /* Locations */
+
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size:auto;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 500px;
+    width: 1200px;
+}
+
+.locations h2 {
+    position: absolute;
+    font-size: 30px;
+    height: 25px;
+    padding-top: 85px;
+    margin: 0 auto;
+    width: 140px;
+}
+
+.locations .box {
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    background-color: black;
+    line-height: 2;
+    width: 250px;
+    height: 230px;
+}
+
+
+   /* Footer */
+
+.footer {
+    text-align: center;
+}
+
+.footer .left {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
